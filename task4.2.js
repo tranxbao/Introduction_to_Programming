@@ -3,7 +3,7 @@ numbers. These numbers are stored in an array. Keep asking
 till zero is entered. After that the numbers are printed out in
 a reverse order. Don’t use array methods for this but only
 simple loops.*/
-const util=require("util")
+const util= require("util")
 process.stdout.write("Please enter numbers:");
 let array = []  
 process.stdin.on("data",function(input){
