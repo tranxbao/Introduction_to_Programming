@@ -25,7 +25,7 @@ matrix[4][4]= '*';
 let ship_num = 6;
 let shot_num = 0;
 let counter = 0;
-let x,y;
+//let x,y;
 
 process.stdout.write('Enter x and y coordinates separated by space:');
 process.stdin.on('data',function(input){
